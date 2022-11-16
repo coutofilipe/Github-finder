@@ -12,9 +12,8 @@ function UserResults() {
       }
     })
 
-    const data = await response.json();
-
-    console.log(data);
+    const data = await response.json()
+    console.log(data)
   }
 
   return <div>UserResults</div>
